@@ -23,6 +23,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        Blade::component('aside-layout', AsideLayout::class);
+        Blade::component('content-layout', ContentLayout::class);
+        Blade::component('footer-layout', FooterLayout::class);
+        Blade::component('header-layout', HeaderLayout::class);
     }
 }
