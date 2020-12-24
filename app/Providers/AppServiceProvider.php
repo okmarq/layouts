@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\Blade;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -23,9 +24,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        Blade::component('aside-layout', AsideLayout::class);
-        Blade::component('content-layout', ContentLayout::class);
-        Blade::component('footer-layout', FooterLayout::class);
-        Blade::component('header-layout', HeaderLayout::class);
+        Blade::component('asidelayout', AsideLayout::class);
+        Blade::component('contentlayout', ContentLayout::class);
+        Blade::component('footerlayout', FooterLayout::class);
+        Blade::component('headerlayout', HeaderLayout::class);
     }
 }

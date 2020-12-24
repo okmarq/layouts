@@ -1,3 +1,3 @@
 <div>
-    <!-- Well begun is half done. - Aristotle -->
+    The Well begun Footer is half done. - Aristotle
 </div>
