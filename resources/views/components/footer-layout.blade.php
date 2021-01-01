@@ -1,3 +1,1 @@
-<div>
-    The Well begun Footer is half done. - Aristotle
-</div>
+<div class="">this is the main content footer</div>

@@ -1,3 +1,7 @@
-<div>
-    The Content Simplicity is the consequence of refined emotions. - Jean D'Alembert
+<div class="">
+
+</div>
+
+<div class="bg-teal-300 h-15">
+	<x-footer-layout />
 </div>
