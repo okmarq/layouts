@@ -1,5 +1,5 @@
 <div class="">
-
+	<p class="">this is the aside for sidebar</p>
 </div>
 
 <div class="bg-blue-300 h-15">

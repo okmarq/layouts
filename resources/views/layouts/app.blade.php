@@ -50,12 +50,12 @@
 
         <div class="min-h-screen bg-gray-100">
             <!-- Page Heading -->
-            <header class="bg-red-400 opacity-75 fixed w-full shadow-md z-50 right-0 add-sm-w add-md-w h-16">
+            <header class="bg-red-400 opacity-75 fixed w-full shadow-md z-50 right-0 top-0 add-sm-w add-md-w h-16">
                 <x-header-layout />
             </header>
 
             <div class="">
-                <aside class="h-full add-w sm:fixed z-10 top-0 left-0 overflow-y-auto pt-16 bg-gray-300 hidden sm:block">
+                <aside class="h-full add-w sm:fixed z-10 top-0 overflow-y-auto pt-16 bg-gray-300 hidden sm:block">
                     {{ $aside }}
                 </aside>
                 <!-- Page Content -->
@@ -65,5 +65,8 @@
             </div>
         </div>
 
+        <script type="text/javascript">
+
+        </script>
     </body>
 </html>
